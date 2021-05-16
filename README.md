@@ -10,7 +10,7 @@ Give a summary description of Four design patterns that you choose from the foll
 > Do not add diagrams, and do not try to give a complete description of the patterns as found in the books. Rather think of how you would explain the essential ideas of these patterns in a few sentences to a colleague while drinking coffee.
 > 
 
-*Adapter*
+**Adapter**
 
 Summary and example: 
 Adapter is a structural design pattern,that works as a bridge between two incompatible interfaces.
@@ -27,7 +27,8 @@ Disadvantages:
 All requests are forwarded, so there is a slight increase in the overhead.
 Sometimes many adaptations are required along an adapter chain to reach the type which is required.
 
-*Builder*
+**Builder**
+
 Summary and example:
 Builder is a creational design pattern,a Builder class builds the final object step by step. This builder is independent of other objects.
 The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
@@ -42,17 +43,21 @@ Builder design pattern also helps in minimizing the number of parameters in cons
 Disadvantages:
 Requires creating a separate ConcreteBuilder for each different type of Product.
 
-*Observer*
+**Observer**
+
+Summary and example:
 Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
 All users of an app on play store gets notified if there is an update
+
 Advantages:
 Provides a loosely coupled design between objects that interact. Loosely coupled objects are flexible with changing requirements. Here loose coupling means that the interacting objects should have less information about each other.
 
 Disadvantages:
 Memory leaks caused by Lapsed listener problem because of explicit register and unregistering of observers.
 
-*Decorator*
+**Decorator**
+
 Decorator is a structural design pattern ,that allows a user to add new functionality to an existing object without altering its structure.
 This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
